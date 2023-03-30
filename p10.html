@@ -1,0 +1,35 @@
+<script type="text/javascript">
+
+    function calc(){
+ 
+     var a = parseInt(prompt("Enter the NO1:-"));
+     var b = parseInt(prompt("Enter the NO2:-"));
+     var c = prompt("Enter an operator (+, -, *, /):");
+     var result;
+     
+     switch (c) {
+       case "+":
+         result =  a + b;
+         break;
+       case "-":
+         result =  a - b;
+         break;
+       case "*":
+         result =  a * b;
+         break;
+       case "/":
+         result =  a / b;
+         break;
+       default:
+         result = "Invalid operator";
+         break;
+     }
+ 
+     document.write("<h1>ANS :- " + result + "</h1>");
+ 
+ 
+    }
+ 
+    calc();
+ 
+ </script>

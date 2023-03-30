@@ -1,0 +1,30 @@
+<script type="text/javascript">
+
+     // return with para
+
+    function greter(a,b,c){
+
+        if(a>b && a>c){
+            // document.write("<h1>A is BIG</h1>");
+            return "A is BIG";
+        }else if(b>a && b>c){
+            // document.write("<h1>B is BIG</h1>");
+            return " B is big";
+        }else{
+            // document.write("<h1>C is BIG</h1>");
+            return " c is big";
+        }
+    }
+
+    var a = parseInt(prompt("enter the a:-"));
+    var b = parseInt(prompt("enter the b:-"));
+    var c = parseInt(prompt("enter the c:-"));
+
+    var ans =  greter(a,b,c);
+    document.write("<h1>ANS :- "+ans+"</h1>");
+
+   
+</script>
+
+
+
